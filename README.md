@@ -21,4 +21,3 @@ Set up a GitHub Action to build a new image when changes are made to this reposi
 Expected Artifacts
 A GitHub repository containing the application with the Dockerfile, k8s manifest, and any other necessary artifacts.
 A GitHub repository with the corresponding GitHub Action configuration.
-The GitHub repository should be kept private, with access granted to the following GitHub IDs: nyrahul, SujithKasireddy.
