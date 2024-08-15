@@ -1,28 +1,24 @@
-# Cow wisdom web server
+# Cow Wisdom Web Server
 
 ## Prerequisites
 
-```
+To set up the environment, install the following packages:
+
+```bash
 sudo apt install fortune-mod cowsay -y
-```
+How to Use
+Run the script with ./wisecow.sh.
+Open your browser and navigate to the server port (default: 4499).
+What to Expect
 
-## How to use?
 
-1. Run `./wisecow.sh`
-2. Point the browser to server port (default 4499)
+Problem Statement
+Deploy the wisecow application as a Kubernetes (k8s) application.
 
-## What to expect?
-![wisecow](https://github.com/nyrahul/wisecow/assets/9133227/8d6bfde3-4a5a-480e-8d55-3fef60300d98)
-
-# Problem Statement
-Deploy the wisecow application as a k8s app
-
-## Requirement
-1. Create Dockerfile for the image and corresponding k8s manifest to deploy in k8s env. The wisecow service should be exposed as k8s service.
-2. Github action for creating new image when changes are made to this repo
-3. [Challenge goal]: Enable secure TLS communication for the wisecow app.
-
-## Expected Artifacts
-1. Github repo containing the app with corresponding dockerfile, k8s manifest, any other artifacts needed.
-2. Github repo with corresponding github action.
-3. Github repo should be kept private and the access should be enabled for following github IDs: nyrahul, SujithKasireddy
+Requirements
+Create a Dockerfile for the image and the corresponding Kubernetes manifest to deploy in a k8s environment. The wisecow service should be exposed as a k8s service.
+Set up a GitHub Action to build a new image when changes are made to this repository.
+Expected Artifacts
+A GitHub repository containing the application with the Dockerfile, k8s manifest, and any other necessary artifacts.
+A GitHub repository with the corresponding GitHub Action configuration.
+The GitHub repository should be kept private, with access granted to the following GitHub IDs: nyrahul, SujithKasireddy.
