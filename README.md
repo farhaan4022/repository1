@@ -9,7 +9,7 @@ sudo apt install fortune-mod cowsay -y
 How to Use
 Run the script with ./wisecow.sh.
 Open your browser and navigate to the server port (default: 4499).
-What to Expect
+
 
 
 Problem Statement
